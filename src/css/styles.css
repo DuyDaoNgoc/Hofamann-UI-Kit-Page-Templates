@@ -1,18 +1,12 @@
-:root{
-    --light-yellow:#EBCB80;
+:root {
+    --light-yellow: #EBCB80;
 }
 
 /*HEADER*/
-.header{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    z-index: 2;
-    align-items: center;
-}
+.header {}
 
 /*Navigation*/
-.main-nav-list{
+.main-nav-list {
     text-transform: uppercase;
     list-style: none;
     font-size: 18px;
@@ -21,36 +15,42 @@
     gap: 20px;
     color: #ffffff;
     z-index: 3;
+    padding: 0;
 }
 
 /*Logo*/
-.logo{
+.logo {
     margin: 0;
     font-size: 36px;
     color: #EBCB80;
     z-index: 3;
 }
+
 /*background*/
-.background{
+.background {
     position: relative;
-   
+
 }
+
 .background img {
     width: 100%;
     position: absolute;
     height: auto;
-     overflow: hidden;
+    overflow: hidden;
     z-index: 1;
+    filter: brightness(50%);
 }
-.background::after{
-    content: '';
-       background: #00000038;
-    width: 100%;
-    height: 1000px;
-    z-index: 2;
-    position: absolute;
-}
-.main-list-icons{
+
+/*ICONS*/
+.main-list-icons {
     gap: 20px;
     display: flex;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 2;
 }
