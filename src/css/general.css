@@ -2,4 +2,123 @@ body{
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  color: #4B4B4B;
+}
+.text{
+    color: white;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 400;
+}
+.text-2{
+  font-size: 16px;
+  color: white;
+}
+.title{
+  font-weight: 400;
+  font-size: 44px;
+  text-align: center;
+}
+
+/*ICONS*/
+.main-list-icons{
+    gap: 20px;
+    display: flex;
+}
+/*btn*/
+.btn{
+      width: 50%;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    background: var(--light-yellow);
+}
+/*background*/
+
+
+.background{
+    width: 100%;
+    position: absolute;
+  height: 768px;
+    z-index: 1;
+    object-fit: cover;
+    background-position: 50% 200px;
+    filter: brightness(50%);
+}
+.wd-hg{
+  width: 100%;
+  height: 768px;
+}
+.space-around{
+      position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.margin-bottom{
+    margin-bottom: 137px;
+}
+.font-content{
+  font-size: 18px;
+  
+}
+.font-content-2{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: start;
+
+}
+.section{
+  font-weight: 400;
+}
+.p{
+  text-align: center;
+}
+@media (max-width:1000px) {
+  .wd-hg{
+  height: 561px;
+}
+  .btn{
+    font-size: 11px;
+  }
+  .font-content-2{
+    font-size: 11px;
+  }
+  section p{
+    font-size: 12px;
+  }
+  .title{
+    font-size: 32px;
+  }
+.text{
+  font-size: 32px;
+}
+.background{
+  height: 564px;
+}
+.flex-content{
+  gap:20px;
+  width: 48%;
+}
+
+}
+@media (max-width:500px) {
+  .title{
+    font-size: 20px;
+  }
+      .flex-content {
+        gap: 80px;
+        width: 75%;
+}
+.main-advantages{
+  display: flex;
+  flex-direction: column;
+}
+.mac{
+  width: 290px;
+  height: 168.32px;
+}
 }

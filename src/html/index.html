@@ -1,78 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hofamann UI-Kit Page Templates</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/styles.css">
-<link rel="stylesheet" href="../css/general.css">
-</head>
-<body>
-    <!---Background-->
-      <div class="background">
-        <div>
-            <img src="../asset/imgs/background/background.png" alt="">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+  </head>
+  <body>
+    <section class="wd-hg">
+      <!---BACKGROUND 1-->
+        <img src="../asset/imgs/background/background.png" alt=""   class="background"/>
+ 
+        <div> 
         </div>
-        </div>
-        <!---HEADER-->
+    <!---HEADER-->
     <header class="header">
         <div>
-            <h1 class="logo">
-                H.
-            </h1>
+          <h1 class="logo">H.</h1>
         </div>
         <!---navigation-->
-          <ul class="main-nav-list">
-                <li>Hotels</li>
-                <li>Airlines</li>
-                <li>Vacation</li>
-                <li>Find More</li>
-            </ul>
+        <ul class="main-nav-list">
+          <li class="li"><a href="#">Hotels </a> </li>
+          <li class="li"> <a href="# "> Airlines</a></li>
+          <li class="li"> <a href="#"> Vacation</a></li>
+          <li class="li"><a href="#"> Find More</a> </li>
+        </ul>
         <!---ICONS-->
         <div class="main-list-icons">
-            <!--TWITTER--->
-            <a href="#">
-                <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <mask id="mask0_0_10" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="24">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.00645828 23.9935H29.4231V0.0883789H0.00645828V23.9935Z" fill="white"/>
-                     </mask>
-                    <g mask="url(#mask0_0_10)">
-                         <path fill-rule="evenodd" clip-rule="evenodd" d="M29.4231 2.91898C28.3406 3.39909 27.1771 3.72357 25.9561 3.86951C27.2024 3.12239 28.1595 1.93939 28.6103 0.52985C27.4439 1.22154 26.152 1.72393 24.777 1.99471C23.6758 0.821509 22.107 0.0883789 20.3708 0.0883789C17.037 0.0883789 14.3341 2.79112 14.3341 6.12476C14.3341 6.59787 14.3876 7.0586 14.4905 7.5004C9.47354 7.24867 5.02558 4.84544 2.04829 1.19335C1.52868 2.0849 1.231 3.12185 1.231 4.22811C1.231 6.32235 2.29679 8.17003 3.91652 9.2525C2.92692 9.22119 1.9962 8.94965 1.18224 8.49753C1.18181 8.52271 1.18181 8.548 1.18181 8.5734C1.18181 11.4982 3.2626 13.938 6.02411 14.4925C5.51752 14.6304 4.98425 14.7042 4.43365 14.7042C4.0447 14.7042 3.66651 14.6664 3.29801 14.5959C4.06612 16.9942 6.29543 18.7394 8.93693 18.7881C6.871 20.4071 4.26813 21.3722 1.44 21.3722C0.952789 21.3722 0.472251 21.3437 0 21.2879C2.67143 23.0006 5.84448 23.9999 9.25345 23.9999C20.3567 23.9999 26.4284 14.8017 26.4284 6.82474C26.4284 6.563 26.4226 6.30266 26.411 6.04382C27.5903 5.19274 28.6138 4.12953 29.4231 2.91898Z" fill="#FFFFFE"/>
-                    </g>
-               </svg>
-            </a>
-<!---FACBOOK-->
-            <a href="#">
-                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                       <path fill-rule="evenodd" clip-rule="evenodd" d="M23.2049 0H1.86251C1.13119 0 0.538469 0.592719 0.538469 1.32404V22.6664C0.538469 23.3977 1.13119 23.9906 1.86251 23.9906H13.3526V14.7001H10.2261V11.0795H13.3526V8.40935C13.3526 5.31074 15.2451 3.62346 18.0093 3.62346C19.3334 3.62346 20.4714 3.72198 20.803 3.76602V7.00431L18.8859 7.00521C17.3826 7.00521 17.0915 7.71955 17.0915 8.76782V11.0795H20.6768L20.21 14.7001H17.0915V23.9906H23.2049C23.9361 23.9906 24.5289 23.3977 24.5289 22.6664V1.32404C24.5289 0.592719 23.9361 0 23.2049 0Z" fill="white"/>
-               </svg>
-            </a>
-<!--INSTAGRAM--->
-         <a href="#">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                   <mask id="mask0_0_16" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 23.995H24V0H0V23.995Z" fill="white"/>
-                   </mask>
-                   <g mask="url(#mask0_0_16)">
-                       <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 6.66675C21.3333 7.03491 21.0348 7.33341 20.6667 7.33341H17.3333C16.9652 7.33341 16.6667 7.03491 16.6667 6.66675V3.33341C16.6667 2.96525 16.9652 2.66675 17.3333 2.66675H20.6667C21.0348 2.66675 21.3333 2.96525 21.3333 3.33341V6.66675ZM21.3333 20.6667C21.3333 21.0348 21.0348 21.3333 20.6667 21.3333H3.33333C2.96516 21.3333 2.66666 21.0348 2.66666 20.6667V10H4.94283C4.763 10.6357 4.66666 11.3067 4.66666 12C4.66666 16.0501 7.94991 19.3333 12 19.3333C16.0501 19.3333 19.3333 16.0501 19.3333 12C19.3333 11.3067 19.237 10.6357 19.0572 10H21.3333V20.6667ZM12 7.33325C14.5773 7.33325 16.6667 9.42258 16.6667 11.9999C16.6667 14.5773 14.5773 16.6666 12 16.6666C9.42267 16.6666 7.33334 14.5773 7.33334 11.9999C7.33334 9.42258 9.42267 7.33325 12 7.33325ZM20.6667 0H3.33333C1.49242 0 0 1.49242 0 3.33333V20.6667C0 22.5076 1.49242 24 3.33333 24H20.6667C22.5076 24 24 22.5076 24 20.6667V3.33333C24 1.49242 22.5076 0 20.6667 0Z" fill="white"/>
-                   </g>
-           </svg>
-         </a>
+          <!--TWITTER--->
+          <a href="#">
+            <svg
+              width="30"
+              height="24"
+              viewBox="0 0 30 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask0_0_10"
+                style="mask-type: luminance"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.00645828 23.9935H29.4231V0.0883789H0.00645828V23.9935Z"
+                  fill="white"
+                />
+              </mask>
+              <g mask="url(#mask0_0_10)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M29.4231 2.91898C28.3406 3.39909 27.1771 3.72357 25.9561 3.86951C27.2024 3.12239 28.1595 1.93939 28.6103 0.52985C27.4439 1.22154 26.152 1.72393 24.777 1.99471C23.6758 0.821509 22.107 0.0883789 20.3708 0.0883789C17.037 0.0883789 14.3341 2.79112 14.3341 6.12476C14.3341 6.59787 14.3876 7.0586 14.4905 7.5004C9.47354 7.24867 5.02558 4.84544 2.04829 1.19335C1.52868 2.0849 1.231 3.12185 1.231 4.22811C1.231 6.32235 2.29679 8.17003 3.91652 9.2525C2.92692 9.22119 1.9962 8.94965 1.18224 8.49753C1.18181 8.52271 1.18181 8.548 1.18181 8.5734C1.18181 11.4982 3.2626 13.938 6.02411 14.4925C5.51752 14.6304 4.98425 14.7042 4.43365 14.7042C4.0447 14.7042 3.66651 14.6664 3.29801 14.5959C4.06612 16.9942 6.29543 18.7394 8.93693 18.7881C6.871 20.4071 4.26813 21.3722 1.44 21.3722C0.952789 21.3722 0.472251 21.3437 0 21.2879C2.67143 23.0006 5.84448 23.9999 9.25345 23.9999C20.3567 23.9999 26.4284 14.8017 26.4284 6.82474C26.4284 6.563 26.4226 6.30266 26.411 6.04382C27.5903 5.19274 28.6138 4.12953 29.4231 2.91898Z"
+                  fill="#FFFFFE"
+                />
+              </g>
+            </svg>
+          </a>
+          <!---FACBOOK-->
+          <a href="#">
+            <svg
+              width="25"
+              height="24"
+              viewBox="0 0 25 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M23.2049 0H1.86251C1.13119 0 0.538469 0.592719 0.538469 1.32404V22.6664C0.538469 23.3977 1.13119 23.9906 1.86251 23.9906H13.3526V14.7001H10.2261V11.0795H13.3526V8.40935C13.3526 5.31074 15.2451 3.62346 18.0093 3.62346C19.3334 3.62346 20.4714 3.72198 20.803 3.76602V7.00431L18.8859 7.00521C17.3826 7.00521 17.0915 7.71955 17.0915 8.76782V11.0795H20.6768L20.21 14.7001H17.0915V23.9906H23.2049C23.9361 23.9906 24.5289 23.3977 24.5289 22.6664V1.32404C24.5289 0.592719 23.9361 0 23.2049 0Z"
+                fill="white"
+              />
+            </svg>
+          </a>
+          <!--INSTAGRAM--->
+          <a href="#">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <mask
+                id="mask0_0_16"
+                style="mask-type: luminance"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="24"
+                height="24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 23.995H24V0H0V23.995Z"
+                  fill="white"
+                />
+              </mask>
+              <g mask="url(#mask0_0_16)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M21.3333 6.66675C21.3333 7.03491 21.0348 7.33341 20.6667 7.33341H17.3333C16.9652 7.33341 16.6667 7.03491 16.6667 6.66675V3.33341C16.6667 2.96525 16.9652 2.66675 17.3333 2.66675H20.6667C21.0348 2.66675 21.3333 2.96525 21.3333 3.33341V6.66675ZM21.3333 20.6667C21.3333 21.0348 21.0348 21.3333 20.6667 21.3333H3.33333C2.96516 21.3333 2.66666 21.0348 2.66666 20.6667V10H4.94283C4.763 10.6357 4.66666 11.3067 4.66666 12C4.66666 16.0501 7.94991 19.3333 12 19.3333C16.0501 19.3333 19.3333 16.0501 19.3333 12C19.3333 11.3067 19.237 10.6357 19.0572 10H21.3333V20.6667ZM12 7.33325C14.5773 7.33325 16.6667 9.42258 16.6667 11.9999C16.6667 14.5773 14.5773 16.6666 12 16.6666C9.42267 16.6666 7.33334 14.5773 7.33334 11.9999C7.33334 9.42258 9.42267 7.33325 12 7.33325ZM20.6667 0H3.33333C1.49242 0 0 1.49242 0 3.33333V20.6667C0 22.5076 1.49242 24 3.33333 24H20.6667C22.5076 24 24 22.5076 24 20.6667V3.33333C24 1.49242 22.5076 0 20.6667 0Z"
+                  fill="white"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="hambuger">
+       
+                     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H16V2H0V0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6H16V8H0V6Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 12H16V14H8V12Z" fill="white"/>
+</svg> 
+   
+
+
         </div>
     </header>
-<!---MAIN--->>
-<main>
+        <!---VIDEO FRAME-->
+          <section class="flex-content">
+                 <h2 class="text">See The Unmatched Beauty Of The Great Lakes</h2>
+                 <div class="main-video">
+                    <img src="../asset/imgs/iphone/video-frame.png" alt="" class="video-frame">
+                    <button class="play-button"></button>
+                 </div>
+                 <svg width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;">
+<path d="M1 1.00488L9 7.67155L17 1" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>
 
-</main>
+    </section>
+
+    </section>
+
+    <!---MAIN--->
+    <main>
+        <section class="section">
+             <h2 class="title">Features</h2>
+             <p class="p">WE’RE TAKING IT TO THE NEXT LEVEL</p>
+             <div class="main-advantages">
+              <div class="padding" >
+                 <div class="advantages">
+                         <div>
+                              <svg width="41" height="34" viewBox="0 0 41 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1 5C1 2.79086 2.79086 1 5 1H29.7273C31.9364 1 33.7273 2.79086 33.7273 5V18.277C33.7273 20.4861 31.9364 22.277 29.7273 22.277H5C2.79086 22.277 1 20.4861 1 18.277V5Z" stroke="#4B4B4B" stroke-width="2"/>
+<path d="M19.7629 22.6099V26.4898" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.6284 22.6099V26.4898" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.4357 27.1155H13.0721" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.5455 12.2727C23.5455 10.0636 25.3363 8.27271 27.5455 8.27271H35.5455C37.7546 8.27271 39.5455 10.0636 39.5455 12.2727V29C39.5455 31.2091 37.7546 33 35.5455 33H27.5455C25.3363 33 23.5455 31.2091 23.5455 29V12.2727Z" fill="white" stroke="#4B4B4B" stroke-width="2"/>
+<path d="M23.9494 26.8083H39.3977" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.8213 28.604C32.4303 28.604 32.9248 29.0965 32.9248 29.703C32.9248 30.3096 32.4303 30.802 31.8213 30.802C31.2123 30.802 30.7179 30.3096 30.7179 29.703C30.7179 29.0965 31.2123 28.604 31.8213 28.604Z" fill="#4B4B4B"/>
+</svg>
+                         </div>
+                         <div>
+                             <h2 class="font-content-2">RESPONSIVE LAYOUT</h2>
+                             <p class="font-content-2">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
+                         </div>
+                   </div>
+                   <div class="advantages">
+                         <div>
+<svg width="34" height="29" viewBox="0 0 34 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.3764 8.01575L16.6882 27.894L1 8.01575L8.54233 1H24.834L32.3764 8.01575Z" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.42224 8.82227H31.9884" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.8222 1.71118L11.8392 7.7451L16.6663 1.71118L21.4934 7.7451L24.5104 1.71118" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.3209 9.42571L16.4939 26.924L11.6667 8.82227" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                         </div>
+                         <div>
+                             <h2 class="font-content-2">PIXEL PERFECT</h2>
+                             <p class="font-content-2">About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.</p>
+                         </div>
+                   </div>
+                   <div class="advantages">
+                         <div>
+<svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0235 2.33112C15.1696 1.39286 13.7146 1.32439 12.7763 2.17826L2.33117 11.6843C1.39291 12.5382 1.32444 13.9933 2.17837 14.9315L10.2843 23.8383C11.1382 24.7765 12.5932 24.8451 13.5315 23.9911L23.9766 14.4851C24.9149 13.6312 24.9834 12.1762 24.1295 11.2379L16.0235 2.33112Z" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.26582 16.5806C1.36302 17.4022 1.29722 18.8001 2.11882 19.7028L9.91282 28.2668C10.7344 29.1696 12.1323 29.2354 13.035 28.4138L23.0782 19.2736C23.9809 18.452 24.0467 17.0542 23.2251 16.1514" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.24041 20.7473C1.35167 21.5561 1.28687 22.9322 2.09574 23.821L9.76861 32.2519C10.5775 33.1406 11.9536 33.2054 12.8423 32.3966L22.7294 23.3984C23.6181 22.5896 23.6829 21.2134 22.8741 20.3247" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.06152 12.9632L14.0615 5.62988" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 
+                         </div>
+                         <div>
+                             <h2 class="font-content-2">ORGANIZED LAYERS</h2>
+                             <p class="font-content-2">Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone?</p>
+                         </div>
+                   </div>
+              </div>
+                   <img src="../asset/imgs/iphone/mac.png" alt="" class="mac">
+                  
+             </div>
+        </section>
+      <!---BACKGROUND 2--->
+        <section class="wd-hg">
+           <img src="..//asset/imgs/background/background-2.png" alt="" class="background">
+           <div class="flex-content">
+                    <h2 class="text">Get Your Free Version</h2>
+                    <p class="text-2 p">Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner cartridge market. The market today is approximately a twenty billion dollar business.</p>
+                    <button class="btn">DOWNLOAD</button>
+           </div>
+        </section>
+      <!--Testimonials---->
+        <section>
+<h2 class="title">Testimonials</h2>
+<div>
+     <div class="card-bg">
+           <img src="../asset/imgs/person/person.png" alt="" class="person-border-radius-img">
+           <div>
+               <div>
+                <h3 class="font-content-2">LULU HOFFMAN</h3>
+                <p class="font-content-2">Marketing Consultant at okodesign.net</p>
+               </div>
+               <div>
+                    <p class="font-content-2">If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions change…like the weather, opinions change frequently.</p>
+                    <div>
+                      <!--LINKEDIN-->
+                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_0_2284" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="23" height="23">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.351074 22.2461H22.2905V0.891235H0.351074V22.2461Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_2284)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.047 19.1184H15.7938V14.154C15.7938 12.9704 15.7725 11.4475 14.1026 11.4475C12.4096 11.4475 12.1512 12.7375 12.1512 14.0696V19.1184H8.901V8.91035H12.0201V10.3061H12.0646C12.4986 9.50334 13.5608 8.65723 15.1442 8.65723C18.4382 8.65723 19.047 10.7707 19.047 13.52V19.1184ZM5.23157 7.5157C4.18637 7.5157 3.34412 6.69157 3.34412 5.67552C3.34412 4.66007 4.18637 3.83594 5.23157 3.83594C6.2725 3.83594 7.1178 4.66007 7.1178 5.67552C7.1178 6.69157 6.2725 7.5157 5.23157 7.5157ZM3.60242 19.1183H6.85929V8.91028H3.60242V19.1183ZM20.6675 0.891235H1.96976C1.07692 0.891235 0.351074 1.58167 0.351074 2.43373V20.7381C0.351074 21.5901 1.07692 22.2818 1.96976 22.2818H20.6675C21.5628 22.2818 22.2905 21.5901 22.2905 20.7381V2.43373C22.2905 1.58167 21.5628 0.891235 20.6675 0.891235Z" fill="#EBCB80"/>
+</g>
+</svg>
+<!--TWITTER-->
+<svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_0_10" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="30" height="24">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.00645828 23.9935H29.4231V0.0883789H0.00645828V23.9935Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_10)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M29.4231 2.91898C28.3406 3.39909 27.1771 3.72357 25.9561 3.86951C27.2024 3.12239 28.1595 1.93939 28.6103 0.52985C27.4439 1.22154 26.152 1.72393 24.777 1.99471C23.6758 0.821509 22.107 0.0883789 20.3708 0.0883789C17.037 0.0883789 14.3341 2.79112 14.3341 6.12476C14.3341 6.59787 14.3876 7.0586 14.4905 7.5004C9.47354 7.24867 5.02558 4.84544 2.04829 1.19335C1.52868 2.0849 1.231 3.12185 1.231 4.22811C1.231 6.32235 2.29679 8.17003 3.91652 9.2525C2.92692 9.22119 1.9962 8.94965 1.18224 8.49753C1.18181 8.52271 1.18181 8.548 1.18181 8.5734C1.18181 11.4982 3.2626 13.938 6.02411 14.4925C5.51752 14.6304 4.98425 14.7042 4.43365 14.7042C4.0447 14.7042 3.66651 14.6664 3.29801 14.5959C4.06612 16.9942 6.29543 18.7394 8.93693 18.7881C6.871 20.4071 4.26813 21.3722 1.44 21.3722C0.952789 21.3722 0.472251 21.3437 0 21.2879C2.67143 23.0006 5.84448 23.9999 9.25345 23.9999C20.3567 23.9999 26.4284 14.8017 26.4284 6.82474C26.4284 6.563 26.4226 6.30266 26.411 6.04382C27.5903 5.19274 28.6138 4.12953 29.4231 2.91898Z" fill="#EBCB80"/>
+</g>
+</svg>
+<!--google-plus-->
+<svg width="33" height="22" viewBox="0 0 33 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8126 9.63079V13.1266H16.4666C16.2387 14.6269 14.7576 17.5255 10.8126 17.5255C7.40883 17.5255 4.63169 14.6415 4.63169 11.0874C4.63169 7.5333 7.40883 4.64925 10.8126 4.64925C12.7495 4.64925 14.0455 5.49407 14.7861 6.22237L17.492 3.5568C15.7545 1.89628 13.5043 0.891235 10.8126 0.891235C5.30105 0.891235 0.843384 5.45037 0.843384 11.0874C0.843384 16.7244 5.30105 21.2835 10.8126 21.2835C16.5663 21.2835 20.3831 17.1468 20.3831 11.3204C20.3831 10.6504 20.3119 10.1406 20.2264 9.63079H10.8126Z" fill="#EBCB80"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.1753 9.63084H29.327V6.71765H26.4786V9.63084H23.6302V12.544H26.4786V15.4572H29.327V12.544H32.1753" fill="#EBCB80"/>
+</svg>
 
-    <!--FOOTER-->>
-    <footer class="footer">
 
-    </footer>
-</body>
+                    </div>
+               </div>
+           </div>
+     </div>
+</div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer"></footer>
+  </body>
 </html>
